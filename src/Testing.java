@@ -1,14 +1,15 @@
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args){
-        while(1==1) {
-            Scanner s = new Scanner(System.in);
-            String J = s.nextLine();
-            int y = countVowels(J);
-            System.out.println(y);
-        }
+//        while(1==1) {
+//            Scanner s = new Scanner(System.in);
+//            String J = s.nextLine();
+//            int y = countVowels(J);
+//            System.out.println(y);
+//        }
     }
     public static boolean isPrime(int num){
         for(int i = num - 1; i > 1; i--){

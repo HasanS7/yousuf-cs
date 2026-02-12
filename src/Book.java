@@ -9,9 +9,11 @@ public class Book {
         this.genre = genre;
     }
     public void printInfo(){
+        System.out.println("====================");
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Genre: " + genre);
+        System.out.println("====================");
     }
     public String getTitle(){
         return title;
@@ -23,4 +25,5 @@ public class Book {
     public String getGenre(){
         return genre;
     }
+    public String getAuthor(){return author;}
 }

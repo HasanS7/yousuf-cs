@@ -15,12 +15,14 @@ public class Movie {
         this.year = year;
     }
 
-    public void printDetails() {
+    public void printInfo() {
+        System.out.println("====================");
         System.out.println("Name: " + name);
         System.out.println("Rating: " + rating);
         System.out.println("Duration: " + duration);
         System.out.println("Genre: " + genre);
         System.out.println("Year: " + year);
+        System.out.println("====================");
     }
 
     public boolean isLongMovie() {
@@ -28,4 +30,9 @@ public class Movie {
             return true;
         } else return false;
     }
+    public double getRating(){return rating;}
+    public String getName(){return name;}
+    public double getDuration(){return duration;}
+    public String getGenre(){return genre;}
+    public int getYear(){return year;}
 }
